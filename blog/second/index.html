@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>Flipkart price tracker</title>
+  
+  <link href="/css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="header" id="header">
+		<div class="logodiv">
+			<img class="logo" src="/assets/logo.png">
+			<div class="filter">
+				<a href="/">Home</a>
+				<span class="space">/<span>
+				<a href="/blog">My Projects</a>
+				<span class="space">/<span>
+				<a href="/about">About me</a>
+				<span class="space">/<span>
+				<a href="/contacts">Contacts</a>
+				</div>
+		</div>
+	</div>
+	<section class="section">
+		<div class="container">
+			
+<h1 class="title">
+  Flipkart price tracker
+</h1>
+<p class="subtitle"><strong>2022-09-20</strong></p>
+<div class="page_content">
+  <h1 id="about">About :</h1>
+<p>This is a simple project I worked on which I aim to make as functional as possible. I had this idea from long and first tried it using BASH. But I didn't go that far with it. Recently I started this project to sharpen my Python skills as well as to learn Python. On this project I got familiar with several modules and it was a fun to explore these.</p>
+<h1 id="project">Project :</h1>
+<p>It is a Flipkart product price tracker. The goal is to keep this script running continously in the machine time to time so that it tracks the price of all the products which can be used to plot graphs later. This may help to guess when the price of a certain product will drop.</p>
+<h1 id="working">Working :</h1>
+<p>Firstly the product link is required which will be stored in a file called 'links.txt'. After that when the script is executed, it will fetch the webpage for the product and scrape the item name and price. A statement will run after this which will extract the item ID from the link of the product as it is unique. A file named 'products.csv' will be created which will store all the item names and its ID which was provided in the 'link.txt' file as it will be required later to plot the graph for a specific product. And for every product, a file will be created with its ID name which will contain the price, name, prouct ID with the timestamp when the price of the product was fetched.</p>
+<h1 id="modules-used">Modules used :</h1>
+<p>Requests : To request the product page.
+BeautifulSoup : To Scrape necessary items form the webpage(i.e, price, name).
+Re : To get the item ID from the URL by using regex.
+OS : To check and create necessary files.
+Datetime : To get the time stamp when the price is fetched.
+CSV : To work with csv files.
+Matplotlib : To plot the graphs.</p>
+<h1 id="project-link">Project link :</h1>
+<p>Will be updated soon.</p>
+
+</div>
+
+		</div>
+	</section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	max-width: 900px;
+	margin: auto;
+	letter-spacing: 0.1px;
+	font-family: 'Share Tech Mono', Monospace, Courier;
+/*	font-weight: 400; */
+	font-size: 17px;
+	color: #c8c8c8;
+	background: #222;
+}
+
+.header{
+	height: 66px;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+	border-bottom: dotted 1px #444;
+}
+
+.logodiv{
+	max-width: 900px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	width: 45px;
+	border: solid 1px #FFF;
+}
+
+.filter a{
+	text-decoration: none;	
+	font-weight: 400;
+	font-size: 17px;
+	color: #fff;
+}
+
+.filter a:hover{
+	text-decoration: underline;     
+}
+
+.space{
+	margin: 0 5px;
+}
+
+.content{
+	padding: 0 20px;
+}
+
+.content p{
+	margin: 10px 0 30px 0;
+	font-size: 17px;
+	line-height: 28px;
+	color: #c8c8c8;
+}
+
+.section{
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.container{
+	margin: auto;
+	margin: 0 20px;
+}
+
+.page_content li{
+	list-style-type: none;
+}
+
+.container li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.container li a:hover{
+	text-decoration: underline;
+}
+
+.page_content{
+	margin: 20px 0px;
+}
+
+.page_content p{
+	margin: 10px 0 30px 0;
+}
+
+.banner{
+	width: 100%;
+}
+
+.banner img{
+	padding: 20px;
+	padding-top: 50px;
+  	width: 600px;
+}
